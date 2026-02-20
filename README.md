@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center"> Co-Enhanced 3D Gaussians Splatting for RGB-Thermal Novel-View Synthesis</h1>
-  <p align="center"> Jiamiao Dong, Haofan Ren, Zunjie Zhu, Yuxiang Zhang, Zengxin Chen</p>
+  <p align="center"> Jiamiao Dong, Haofan Ren, Zunjie Zhu, Zengxin Chen, Yuxiang Zhang</p>
   <p align="center"> Hangzhou Dianzi University</p>
 </p>
 
@@ -92,7 +92,7 @@ For the ThermalMix dataset, download the training dataset from [ThermalNeRF](htt
 
 Our method demonstrates strong performance improvements on real-world benchmarks. 
 
-| Method | Thermal PSNR↑ | Color PSNR↑ | average_FPS |
+| Method | Thermal PSNR↑ | Color PSNR↑ | Average FPS↑ |
 |:---|:---:|:---:|:---:|
 | 3DGS+MI | 24.15 | 23.20 | 348.82 |
 | Mip-Splatting | 25.05 | 23.31 | 246.14 |
