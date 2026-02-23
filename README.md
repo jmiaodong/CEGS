@@ -100,12 +100,9 @@ Our method demonstrates strong performance improvements on real-world benchmarks
 | MSMG | 25.38 | 24.36 | 314.23 |
 | OMMG | 25.64 | 24.54 | 256.51 |
 | Thermal3DGS | 25.20 | 24.27 | 64.14 |
-| 3DGS_SM | 24.49 | 25.08 | 275.31 |
-| 3DGS_PM | 25.87 | 22.04 | 309.14 |
-| 3DGS_RS | 24.87 | 24.24 | 282.10 |
-| Mip_SM | 25.19 | 24.21 | 246.99 |
-| Mip_PM | 25.74 | 24.92 | 385.65 |
-| Mip_RS | 25.19 | 24.27 | 238.73 |
+| Ours_SM | 25.19 | 24.21 | 246.99 |
+| Ours_PM | 25.74 | 24.92 | 385.65 |
+| Ours_RS | 25.19 | 24.27 | 238.73 |
 
 The performance scatter plot across different multimodal models demonstrates that our method outperforms existing synthesis approaches. In this plot, the x-axis represents the Thermal PSNR, the y-axis represents the Color PSNR, and the size of each circle indicates the inference speed measured in FPS (Frames Per Second).
 
