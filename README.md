@@ -33,7 +33,7 @@ We introduce CEGS, a novel multimodal framework based 3D gaussian splatting, whi
 Overview of the proposed method. (a) PMGS: We first train the color Gaussians solely in the RGB modality with freezing the thermal gaussians (as shown in b). Then, we train the thermal Gaussians using a tiny multi-layer perceptron (MLP) within ModalTran, to reconstruct realistic multimodal scenes. (b) SMGS: We simultaneously construct the color gaussians and the thermal Gaussians, each used for rendering in their respective scenes. The thermal Gaussians are transformed using a tiny MLP within ModalTran. This strategy enables the simultaneous rendering of RGB and thermal modalities, unlike the two-stage process used in PMGS. Similarly, the reverse approach(RSGS) can still be applied, where the Base Gaussians are used to render the thermal images and the Bias-adjusted Gaussians are used to render the color images.
 
 <p align="center">
-    <img src="resources/images/pip.png"/>
+    <img src="resources/images/pipline.png"/>
 </p>
 
 ## 🔍 Key Contributions
